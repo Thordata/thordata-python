@@ -63,7 +63,7 @@ def test_search_response_normalizes_aliases_and_returns_metadata() -> None:
 
 def test_basic_serp_fixture_matches_normalized_form() -> None:
     fixture = json.loads(
-        (Path(__file__).resolve().parents[2] / "contract-fixtures" / "serp" / "basic-request.json")
+        (Path(__file__).resolve().parents[1] / "contract-fixtures" / "serp" / "basic-request.json")
         .read_text(encoding="utf-8")
     )
 

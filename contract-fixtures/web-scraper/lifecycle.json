@@ -1,0 +1,18 @@
+{
+  "builder": {
+    "code": 200,
+    "data": { "task_id": "task-scrape-1" }
+  },
+  "status": [
+    { "code": 200, "data": [{ "task_id": "task-scrape-1", "status": "Running" }] },
+    { "code": 200, "data": [{ "task_id": "task-scrape-1", "status": "Ready" }] }
+  ],
+  "download_address": {
+    "code": 200,
+    "data": {
+      "tasks_ids": "task-scrape-1",
+      "download": "https://scraperapi.thordata.com/download?task_id=task-scrape-1&type=json&api_key=server-key"
+    }
+  },
+  "records": [{ "name": "example", "success": true }]
+}

@@ -1,0 +1,19 @@
+{
+  "input": {
+    "engine": "google_search",
+    "query": "pizza",
+    "country": "us",
+    "language": "en",
+    "safe": true,
+    "ignored": "drop-me"
+  },
+  "form": {
+    "engine": "google",
+    "q": "pizza",
+    "gl": "us",
+    "hl": "en",
+    "safe": "1",
+    "json": "1",
+    "isjson": "1"
+  }
+}

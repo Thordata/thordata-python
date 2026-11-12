@@ -107,7 +107,7 @@ def test_all_seven_spiders_have_the_expected_parameter_contract() -> None:
 
 
 def test_contract_fixtures_match_the_wire_envelopes() -> None:
-    root = Path(__file__).resolve().parents[2] / "contract-fixtures"
+    root = Path(__file__).resolve().parents[1] / "contract-fixtures"
     serp = json.loads((root / "serp" / "envelopes.json").read_text(encoding="utf-8"))
     scraper = json.loads(
         (root / "web-scraper" / "lifecycle.json").read_text(encoding="utf-8")

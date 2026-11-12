@@ -1,0 +1,17 @@
+{
+  "success": {
+    "code": 200,
+    "data": {
+      "result": { "search_information": { "query_displayed": "pizza" } },
+      "task_id": "task-serp-1"
+    }
+  },
+  "not_collected": {
+    "code": 300,
+    "data": "result was not collected"
+  },
+  "collection_failed": {
+    "code": 0,
+    "data": "error, Collection failed"
+  }
+}
