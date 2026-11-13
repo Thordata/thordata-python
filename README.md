@@ -3,7 +3,7 @@
 Python client for the Thordata SERP API and seven verified Web Scraper products. The package is independent of LangChain and uses the real Thordata form endpoints.
 
 > Next-generation Thordata Python SDK for new projects.
-> This repository is the future primary Python SDK and is being prepared for public PyPI release.
+> This repository is the future primary Python SDK and is now publicly available on PyPI.
 
 Turn live web data into working applications faster. Thordata Python SDK gives Python teams one interface for SERP search and structured web scraping, so you can power research, monitoring, enrichment, RAG, and AI agent workflows without maintaining a separate scraper for every target.
 
